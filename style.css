@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 512px;
+    background-image: url("imagenes/logo.png");
+    background-size: cover;
+    background: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #3832f3;
+}
+
+main{
+    width: 100%;
+    height: 90%;
+    background: linear-gradient(#3832f3, #02012b); /*esta funcion hace que la transaccion de los coleres de uno a otro*/
+    display: flex;
+    justify-content: space-between;
+}
+
+section{
+    width: 40%;
+    height: 100%;
+    background: linear-gradient(#3832f3, #02012b);
+}
+
+.seccion1{
+    width: 60%;
+}
+
+.area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px; /*separar con la paarte de arriba */
+    resize: none;
+    font-size: 25px;
+}
+
+.btn-encriptar,.btn-desencriptar{
+    width: 25%;
+    height: 40px;
+    color: white; /* color de las letras del boton*/
+    background: purple; /* color del boton*/
+    border: none; /* quitamos los bordes del recuadro*/
+    border-radius: 5px; /* le dimos que las esquinas sea tipo redondas*/
+    transition: 1s all; /* hace que se ve una transccion */
+    cursor: pointer; /* hace que el apuntador se convierta manita apuintando*/
+}
+
+.contenedor-botones{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.seccion2{
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
+
+.resultado{
+    width: 90%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px; /*separar con la paarte de arriba */
+    resize: none;
+    font-size: 25px;
+}
+
+.contenedor-muneco{
+    width:100%;
+    height:60%;
+    padding-top: 150px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contenedor-h3{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.contenedor-parrafo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.contenedor-resultado{
+    width: 100%;
+    height: 20%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.contenedor-copiar{
+    width: 100%;
+    height: 20%;
+    margin-top: 20px; /*separar con la paarte de arriba */
+}
+
+.btn-copiar{
+    width: 35%;
+    height: 40px;
+    display: block;
+    margin: auto;
+    color: white; /* color de las letras del boton*/
+    background: purple; /* color del boton*/
+    border: none; /* quitamos los bordes del recuadro*/
+    border-radius: 5px; /* le dimos que las esquinas sea tipo redondas*/
+    transition: 1s all; /* hace que se ve una transccion */
+    cursor: pointer; /* hace que el apuntador se convierta manita apuintando*/
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #02012b;
+    text-align: center;
+}
+
+p{
+    color: white;
+}
+
+#botonCopiar{
+    display: none;
+}
+
+.oculpar{
+    display: none;
+}
